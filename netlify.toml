@@ -1,0 +1,4 @@
+# Only index.html is published; repo files (README, apps-script.gs) stay private.
+[build]
+  command = "mkdir -p site && cp index.html site/"
+  publish = "site"
